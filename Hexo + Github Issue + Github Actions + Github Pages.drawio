@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-05-07T06:55:58.342Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" version="21.2.1" etag="ztrmMuwjNudzteFPoyZw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-07T07:05:41.137Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="15JqG0tBMzzWB50UUp0Q" version="21.2.1" type="github">
   <diagram name="第 1 页" id="ZStP1GP7W2P88Ngjg6QA">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CftRygvsScrXa_gEFx6G-17" value="Github Actions" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;strokeWidth=2;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="235" y="100" width="670" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CftRygvsScrXa_gEFx6G-2" target="CftRygvsScrXa_gEFx6G-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-2" value="clone项目" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-18" value="脚本create_from_issue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;verticalAlign=top;dashed=1;dashPattern=8 8;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="707" y="140" width="173" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CftRygvsScrXa_gEFx6G-3" target="CftRygvsScrXa_gEFx6G-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-3" value="安装依赖" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CftRygvsScrXa_gEFx6G-4" target="CftRygvsScrXa_gEFx6G-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-4" value="拉取label为posts的issue&lt;br&gt;生成 Markdown 文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="740" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CftRygvsScrXa_gEFx6G-5" target="CftRygvsScrXa_gEFx6G-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-5" value="移除仓库中之前从issue生成的 Markdown 文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="740" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CftRygvsScrXa_gEFx6G-6" target="CftRygvsScrXa_gEFx6G-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-6" value="构建站点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CftRygvsScrXa_gEFx6G-7" target="CftRygvsScrXa_gEFx6G-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-7" value="发布到gh-pages分支" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CftRygvsScrXa_gEFx6G-8" target="CftRygvsScrXa_gEFx6G-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-8" value="创建issue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CftRygvsScrXa_gEFx6G-14" value="Github Pages站点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
