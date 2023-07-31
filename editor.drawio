@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T08:40:26.258Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="G713WrtB5K_Jp6eMOSq8" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-31T10:25:31.637Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="T6aJeGCmO9pFOl_8kaip" version="21.2.1" type="github">
   <diagram name="第 1 页" id="2doKhfyTxvmAfVmX1QRC">
     <mxGraphModel dx="2074" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -51,6 +51,102 @@
         </mxCell>
         <mxCell id="g_p9rQUHt0_gcAnSfRzu-18" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1075" y="715" width="60" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-20" value="开发runtime" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="240" width="530" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-21" value="编辑器" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="780" width="430" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-22" value="iframe预览区域" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="815" width="170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-23" value="表单配置" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1845" y="815" width="150" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-24" value="组件" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="265" width="200" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-25" value="头像组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-26" value="领取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-27" value="抽奖" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-28" value="奖券" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1635" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-29" value="表单配置" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="265" width="200" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-30" value="头像表单配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-31" value="领取表单配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-32" value="抽奖表单配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-33" value="奖券表单配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-34" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="710" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-35" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1895" y="715" width="60" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-36" value="runtime" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1150" width="530" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-37" value="编辑器" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1690" width="430" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-38" value="iframe预览区域" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1725" width="170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-39" value="表单配置" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="1725" width="150" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-40" value="组件" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1175" width="200" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-41" value="头像组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-42" value="领取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-43" value="抽奖" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-44" value="开发中的组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="815" y="1535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-45" value="表单配置" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1175" width="200" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-46" value="头像表单配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-47" value="领取表单配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-48" value="抽奖表单配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-49" value="开发中组件表单配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="1535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-50" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1620" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9rQUHt0_gcAnSfRzu-51" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="1625" width="60" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
